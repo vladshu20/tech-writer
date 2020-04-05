@@ -7,7 +7,8 @@ This guide will help you to install Grafana locally from the Docker image, open 
 
 Firstly, to get Grafana installed from Docker you need to decide which image of Grafana to choose: either * [Alpine](https://hub.docker.com/_/alpine) or [Ubuntu](https://hub.docker.com/_/ubuntu).  Alpine one is smaller and more secure because it’s base distribution is [Alpine Linux](https://alpinelinux.org/), that is small by its nature. Ubuntu-based image is for those, who prefer [Ubuntu](Ubuntu) and/or who are dependent on certain tooling not available for Alpine.
 
-Secondly, you need to go to the Docker image, choose architecture, look for tag ubuntu: latest, that will ensure the latest version of the image and copy-paste command in your terminal. After that image will be installed.
+Secondly, you need to go to the Docker image, choose architecture, look for tag ubuntu: latest, that will ensure the latest version of the image and copy-paste command in your terminal. After that image will be installed:
+![](pictures/image5.png) 
 
 To test installation try to execute the next command, which will run Grafana: 
 ```
